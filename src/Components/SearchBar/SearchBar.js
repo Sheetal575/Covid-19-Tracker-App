@@ -3,7 +3,7 @@ import React , {useState} from 'react'
 export default function Searchbar(props){
     
     const [query, setQuery] = useState("");
-    
+
     props.query(query)
     return(
         <>
